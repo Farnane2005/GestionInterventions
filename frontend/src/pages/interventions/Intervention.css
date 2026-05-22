@@ -1,0 +1,61 @@
+.filters-bar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.filters-bar .search-input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.filter-select {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  min-width: 180px;
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.statut-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.statut-attente {
+  background-color: #fef3cd;
+  color: #d68910;
+}
+
+.statut-cours {
+  background-color: #e8d5f5;
+  color: #7d3c98;
+}
+
+.statut-terminee {
+  background-color: #d5f5e3;
+  color: #1e8449;
+}
+
+.form-group textarea {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: vertical;
+  font-family: inherit;
+  transition: border 0.2s;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
